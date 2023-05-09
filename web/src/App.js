@@ -80,13 +80,16 @@ function App() {
 
   return (
     <div style={{margin: "0 auto", width: "600px"}}>
+
       <div className="title">
         <h1>Delegate Cash Sample (on goerli)</h1>
       </div>
+
       <div style={{margin: "30px"}}>
         <h4>1. Use cold wallet to Mint original NFT</h4>
         <a href="https://membership.on.fleek.co/">https://membership.on.fleek.co/</a>
       </div>
+
       <div style={{margin: "30px"}}>
         <h4>2. Delegate hot wallet from cold wallet</h4>
         <a href="https://delegate.cash/">https://delegate.cash</a>
@@ -94,6 +97,7 @@ function App() {
           <img src={dcImage} alt="dc" />
         </div>
       </div>
+
       <div style={{margin: "30px"}}>
         <h4>3. Claim NFT from host wallet</h4>
         <div style={{marginTop: "10px"}}>
@@ -116,6 +120,12 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div style={{margin: "30px"}}>
+        <h4>Smart Contract</h4>
+        <a href="https://github.com/tanelabs/delegate-cash-sample/blob/main/contract/contracts/delegate_cash_sample.sol">delegate_cash_sample.sol</a>
+      </div>
+
     </div>
   );
 }
