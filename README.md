@@ -1,4 +1,4 @@
-# Membership NFT
+# delegate-cash-sample
 
 ### Demo
-https://membership.on.fleek.co
+https://delegate-cash-sample.on.fleek.co
